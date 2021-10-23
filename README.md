@@ -13,10 +13,10 @@ Trabalho apresentado no [7º Seminário Internacional sobre Análise de Dados na
 [OUTPUT] Caminho do arquivo TXT com os ciclos identificados.
 
 #### cycle_limit_length
-[OPCIONAL] Tamanho limite do ciclo. Caso não seja informado, serão buscados todos os ciclos.
+[OPCIONAL] Número limite de vértices do ciclo. Caso não seja informado, serão buscados ciclos de qualquer tamanho.
 
 #### cycle_limit_node_type
-[OPCIONAL] Tipo do vértice a ser considerado na contagem do tamanho limite do ciclo. Caso não seja informado, serão considerados vértices de qualquer tipo.
+[OPCIONAL] Tipo do vértice a ser considerado na contagem do "cycle_limit_length". Caso não seja informado, serão considerados vértices de qualquer tipo.
 
 ### Exemplos
 python -m busca_ciclos_no_grafo ./edges.csv ./cycles.txt
