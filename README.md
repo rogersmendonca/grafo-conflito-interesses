@@ -19,11 +19,11 @@ Código fonte utilizado no trabalho "Conflito de Interesses (Lei 12.813/2013): C
 [OPCIONAL] Tipo do vértice a ser considerado na contagem do "cycle_limit_length". Caso não seja informado, serão considerados vértices de qualquer tipo.
 
 ### Exemplos
-`python -m busca_ciclos_no_grafo ./edges.csv ./cycles.txt
+`python -m busca_ciclos_no_grafo ./edges.csv ./cycles.txt`
 
-`python -m busca_ciclos_no_grafo ./edges.csv ./cycles.txt 8
+`python -m busca_ciclos_no_grafo ./edges.csv ./cycles.txt 8`
 
-`python -m busca_ciclos_no_grafo ./edges.csv ./cycles.txt 2 C
+`python -m busca_ciclos_no_grafo ./edges.csv ./cycles.txt 2 C`
 
 ## Biblioteca Python requerida:
 * igraph
