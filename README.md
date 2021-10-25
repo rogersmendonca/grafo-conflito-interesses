@@ -28,5 +28,5 @@ Código fonte utilizado no trabalho **"Conflito de Interesses (Lei 12.813/2013):
 ## Biblioteca Python requerida:
 * igraph
 
-**Observação:** O arquivo [sample.csv](notebook/sample.csv) é uma **amostra do CSV** das arestas do grafo, a partir de dados simulados.
+**Observação:** O arquivo [sample.csv](notebook/sample.csv) é um **exemplo do CSV** das arestas do grafo (argumento **csv_edges_input**), a partir de dados simulados. O caderno (Jupyter Notebook) [Demonstracao.ipynb](notebook/Demonstracao.ipynb) contém uma demonstração da identificação de ciclos no grafo instanciado com os dados de [sample.csv](notebook/sample.csv).
 
